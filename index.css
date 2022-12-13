@@ -1,0 +1,47 @@
+#nav
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 10vh;
+    /* position: absolute; */
+}
+#ul
+{
+    /* background-color: peru; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-family: 'Space Mono', monospace;
+}
+.list
+{
+    padding:10px 30px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 3vh;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav ul img
+{
+    /* display: inline; */
+    height: 3.5em;
+    width: 3.5em;
+    /* float: left; */
+    margin-right: 0;
+    margin-left: 0;
+}
+#webName
+{
+    color: white;
+    position: relative;
+    top: 3vh;
+    margin-right: auto;
+}
